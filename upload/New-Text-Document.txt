@@ -1,0 +1,34 @@
+A friend is someone who gives you total freedom to be yourself ..
+
+Depth of friendship does not depend on length of acquaintance..(for sagor)
+
+Friendship consists in forgetting what one gives and remembering what one receives.
+
+Friendship is like money, easier make than kept..
+
+friendship marks a life even more deeply than love.Love risks degenerating into obsession,friendship is never anything but sharing.
+
+Lay this untoyour breast old friends,like old swords,still are trusted best ..
+
+A true friend is one who knows all about you and likes you anyway ..
+
+Everyone listen what you say.Friend listen what you say.Best friend listen to what you don't say .
+
+Friends are those rare people who ask how you are and then wait to hear the answer .
+
+Walking with a friend in the dark is better than walking along in the light..
+
+True friends are very difficult to find,Hard to leave,And impossible to foeget ..
+
+//////////////////////////////////////////////////
+
+
+<?php
+ echo "<table>";
+ while($row = mysqli_fetch_array($result))
+          {
+          echo "<tr><td>" . $row['FirstName'] . "</td><td> " . $row['LastName'] . "</td></tr>"; //these are the fields that you have stored in your database table employee
+          }
+ echo "</table>";
+ mysqli_close($con);
+?>
